@@ -5,7 +5,8 @@ React Native PDF View (windows support)
 
 * In mainpage.cs
 
-```using ReactNative.Modules.PDFView;
+```
+using ReactNative.Modules.PDFView;
 
 return new List<IReactPackage>
                 {
