@@ -1,9 +1,0 @@
-rootProject.name = 'example'
-
-include ':app'
-
-include ':PDFView'
-project(':PDFView').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pdf-view/android')
-
-include ':react-native-fs'
-project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
