@@ -12,7 +12,7 @@ using Windows.UI.Xaml.Media.Imaging;
 // Extremely limited implementation of the react-native-fs native module for windows
 // Needs completing with loads of other methods and constants
 
-namespace ReactNative.Modules.PDFView
+namespace RNPDF
 {
 
     public class PDFViewModule : ReactContextNativeModuleBase
@@ -53,7 +53,6 @@ namespace ReactNative.Modules.PDFView
                 new PDFViewManager()
             };
         }
-
     }
 
     public class PDFViewManager : SimpleViewManager<Page>
@@ -74,30 +73,25 @@ namespace ReactNative.Modules.PDFView
                 return renderer;
         }
 
-        [ReactProp("source")]
+        [ReactProp("src")]
         public void SetSource(Page view, String src)
         {
         
             renderer.LoadDocument(src);
         }
 
-        [ReactProp("page")]
-        public void SetPage(Page view, int pageNumber)
+        [ReactProp("path")]
+        public void SetPath(Page view, String path)
         {
         }
-
-        [ReactProp("scale")]
-        public void SetScale(Page view, double scale)
+    
+        [ReactProp("pageNumber")]
+        public void SetPageNumber(Page view, int pageNumber)
         {
         }
-
-        [ReactProp("minScale")]
-        public void SetMinScale(Page view, double minScale)
-        {
-        }
-
-        [ReactProp("maxScale")]
-        public void SetMaxScale(Page view, double maxScale)
+    
+        [ReactProp("zoom")]
+        public void SetPath(Page view, float zoom)
         {
         }
     }

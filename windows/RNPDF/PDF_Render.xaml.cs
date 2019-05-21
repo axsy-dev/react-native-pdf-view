@@ -21,7 +21,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 
-namespace ReactNative.Modules.PDFView
+namespace RNPDF
 {
     public sealed partial class PDF_Render : Page
     {
