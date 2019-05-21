@@ -46,7 +46,7 @@ namespace RNPDF
             return new List<INativeModule>(0);
         }
 
-        public IReadOnlyList<UIManager.IViewManager> CreateViewManagers(ReactContext reactContext)
+        public IReadOnlyList<IViewManager> CreateViewManagers(ReactContext reactContext)
         {
             return new List<IViewManager>()
             {
@@ -76,7 +76,6 @@ namespace RNPDF
         [ReactProp("src")]
         public void SetSource(Page view, String src)
         {
-        
             renderer.LoadDocument(src);
         }
 
