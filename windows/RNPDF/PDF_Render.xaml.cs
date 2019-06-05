@@ -21,7 +21,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 
-namespace RNPDF
+namespace ReactNative.Modules.PDFView
 {
     public sealed partial class PDF_Render : Page
     {
@@ -38,7 +38,23 @@ namespace RNPDF
 
             //RenderingPanel.Visibility = Visibility.Collapsed;
 
-            StorageFile file = await StorageFile.GetFileFromPathAsync(path);
+            StorageFile file = null;
+            try
+            {
+                file = await StorageFile.GetFileFromPathAsync(path);
+            }
+            catch (Exception)
+            {
+                try
+                {
+                    file = await StorageFile.GetFileFromApplicationUriAsync(new Uri(path));
+                }
+                catch (Exception e)
+                {
+                    // ?
+                }
+
+            }
             if (file != null)
             {
                 try
@@ -53,7 +69,7 @@ namespace RNPDF
                 {
                     if (pdfDocument.IsPasswordProtected)
                     {
-                        
+
                     }
                     else
                     {
