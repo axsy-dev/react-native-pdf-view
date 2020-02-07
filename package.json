@@ -6,7 +6,7 @@
   "typings": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cnjon/react-native-pdf-view.git"
+    "url": "https://github.com/axsy-dev/react-native-pdf-view.git"
   },
   "keywords": [
     "react-component",
@@ -27,7 +27,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cnjon/react-native-pdf-view/issues"
+    "url": "https://github.com/axsy-dev/react-native-pdf-view/issues"
   },
   "peerDependencies": {
     "@types/react": "*",
@@ -38,5 +38,6 @@
   },
   "dependencies": {
     "prop-types": "^15.6.0"
-  }
+  },
+  "homepage": "https://github.com/axsy-dev/react-native-pdf-view"
 }
