@@ -33,3 +33,9 @@ local.properties
 node_modules/
 npm-debug.log
 *.iml
+
+
+# Windows vnext
+#
+.vs/
+packages/

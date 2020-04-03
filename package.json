@@ -16,6 +16,10 @@
     "pdf",
     "view"
   ],
+  "devDependencies": {
+    "react-native": "0.61.5",
+    "react-native-windows": "0.61.0"
+  },
   "author": {
     "name": "cnjon",
     "url": "https://github.com/cnjon"
@@ -26,7 +30,9 @@
   },
   "peerDependencies": {
     "@types/react": "*",
-    "@types/react-native": "*"
+    "@types/react-native": "*",    
+    "react-native": "*",
+    "react-native-windows": "*"
   },
   "dependencies": {
     "prop-types": "^15.6.0"

@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj",
+        "projectName": "Microsoft.ReactNative",
+        "projectPath": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj"
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj",
+        "projectName": "RNPDFvnext",
+        "projectPath": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj",
+        "packagesPath": "C:\\Users\\gill\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.15063"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.15063": {
+            "projectReferences": {
+              "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj": {
+                "projectPath": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.15063": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
