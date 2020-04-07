@@ -17,17 +17,17 @@ namespace RNPDFvnext
         }
 
         [ViewManagerProperty("path")]
-        public void SetPath(Page view, String path)
+        public void SetPath(PDF_Render view, String path)
         {
         }
 
         [ViewManagerProperty("pageNumber")]
-        public void SetPageNumber(Page view, int pageNumber)
+        public void SetPageNumber(PDF_Render view, int pageNumber)
         {
         }
 
         [ViewManagerProperty("zoom")]
-        public void SetPath(Page view, float zoom)
+        public void SetPath(PDF_Render view, float zoom)
         {
         }
     }

@@ -25,6 +25,7 @@ namespace test
 #endif
 
         PackageProviders.Add(new Microsoft.ReactNative.Managed.ReactPackageProvider()); // Includes any modules in this project
+        PackageProviders.Add(new RNPDFvnext.ReactPackageProvider());
 
         InitializeComponent();
     }

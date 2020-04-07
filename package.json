@@ -17,6 +17,7 @@
     "view"
   ],
   "devDependencies": {
+    "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-windows": "0.61.0"
   },
@@ -32,7 +33,8 @@
     "@types/react": "*",
     "@types/react-native": "*",    
     "react-native": "*",
-    "react-native-windows": "*"
+    "react-native-windows": "*",
+    "react": "*"
   },
   "dependencies": {
     "prop-types": "^15.6.0"

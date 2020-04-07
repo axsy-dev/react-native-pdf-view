@@ -39,3 +39,14 @@ npm-debug.log
 #
 .vs/
 packages/
+bin/
+obj/
+msbuild.binlog
+windows/RNPDFvnext/RNPDFvnext/obj/x64/Debug/intermediatexaml/RNPDFvnext.winmdobj
+*.pdb
+*.winmd
+*.xbf
+windows/RNPDFvnext/RNPDFvnext/obj/project.assets.json
+*.cache
+windows/RNPDFvnext/RNPDFvnext/obj/RNPDFvnext.csproj.nuget.dgspec.json
+windows/RNPDFvnext/RNPDFvnext/obj/RNPDFvnext.csproj.nuget.g.props

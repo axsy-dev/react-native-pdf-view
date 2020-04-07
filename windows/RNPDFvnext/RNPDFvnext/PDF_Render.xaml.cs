@@ -24,7 +24,7 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace RNPDFvnext
 {
-    public sealed partial class PDF_Render : Page
+    internal sealed partial class PDF_Render : Page
     {
         private PdfDocument pdfDocument;
 
@@ -100,7 +100,8 @@ namespace RNPDFvnext
             }
         }
 
-        public IList<BitmapImage> PdfPages
+
+        public ObservableCollection<BitmapImage> PdfPages
         {
             get;
             set;

@@ -2227,13 +2227,73 @@
           }
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Folly/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Folly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Folly.dll": {}
+        }
+      },
+      "JSI.Universal/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        }
+      },
       "Microsoft.ReactNative/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "JSI.Universal": "1.0.0",
+          "ReactCommon": "1.0.0",
+          "ReactWindowsCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
         },
         "runtime": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
+        }
+      },
+      "ReactCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReactCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactCommon.dll": {}
+        }
+      },
+      "ReactWindowsCore/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "ReactCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
         }
       }
     },
@@ -4537,13 +4597,73 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Folly/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Folly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Folly.dll": {}
+        }
+      },
+      "JSI.Universal/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        }
+      },
       "Microsoft.ReactNative/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "JSI.Universal": "1.0.0",
+          "ReactCommon": "1.0.0",
+          "ReactWindowsCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
         },
         "runtime": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
+        }
+      },
+      "ReactCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReactCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactCommon.dll": {}
+        }
+      },
+      "ReactWindowsCore/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "ReactCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
         }
       }
     },
@@ -6883,13 +7003,73 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Folly/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Folly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Folly.dll": {}
+        }
+      },
+      "JSI.Universal/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        }
+      },
       "Microsoft.ReactNative/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "JSI.Universal": "1.0.0",
+          "ReactCommon": "1.0.0",
+          "ReactWindowsCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
         },
         "runtime": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
+        }
+      },
+      "ReactCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReactCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactCommon.dll": {}
+        }
+      },
+      "ReactWindowsCore/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "ReactCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
         }
       }
     },
@@ -8828,13 +9008,73 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Folly/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Folly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Folly.dll": {}
+        }
+      },
+      "JSI.Universal/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        }
+      },
       "Microsoft.ReactNative/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "JSI.Universal": "1.0.0",
+          "ReactCommon": "1.0.0",
+          "ReactWindowsCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
         },
         "runtime": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
+        }
+      },
+      "ReactCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReactCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactCommon.dll": {}
+        }
+      },
+      "ReactWindowsCore/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "ReactCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
         }
       }
     },
@@ -11147,13 +11387,73 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Folly/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Folly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Folly.dll": {}
+        }
+      },
+      "JSI.Universal/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        }
+      },
       "Microsoft.ReactNative/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "JSI.Universal": "1.0.0",
+          "ReactCommon": "1.0.0",
+          "ReactWindowsCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
         },
         "runtime": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
+        }
+      },
+      "ReactCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReactCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactCommon.dll": {}
+        }
+      },
+      "ReactWindowsCore/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "ReactCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
         }
       }
     },
@@ -13502,13 +13802,73 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Folly/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Folly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Folly.dll": {}
+        }
+      },
+      "JSI.Universal/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        }
+      },
       "Microsoft.ReactNative/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "JSI.Universal": "1.0.0",
+          "ReactCommon": "1.0.0",
+          "ReactWindowsCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
         },
         "runtime": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
+        }
+      },
+      "ReactCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReactCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactCommon.dll": {}
+        }
+      },
+      "ReactWindowsCore/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "ReactCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
         }
       }
     },
@@ -15821,13 +16181,73 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Folly/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Folly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Folly.dll": {}
+        }
+      },
+      "JSI.Universal/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        }
+      },
       "Microsoft.ReactNative/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "JSI.Universal": "1.0.0",
+          "ReactCommon": "1.0.0",
+          "ReactWindowsCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
         },
         "runtime": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
+        }
+      },
+      "ReactCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReactCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactCommon.dll": {}
+        }
+      },
+      "ReactWindowsCore/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "ReactCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
         }
       }
     },
@@ -18176,13 +18596,73 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Folly/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Folly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Folly.dll": {}
+        }
+      },
+      "JSI.Universal/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JSI.Universal.dll": {}
+        }
+      },
       "Microsoft.ReactNative/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "JSI.Universal": "1.0.0",
+          "ReactCommon": "1.0.0",
+          "ReactWindowsCore": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
         },
         "runtime": {
           "bin/placeholder/Microsoft.ReactNative.dll": {}
+        }
+      },
+      "ReactCommon/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ReactCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactCommon.dll": {}
+        }
+      },
+      "ReactWindowsCore/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Folly": "1.0.0",
+          "ReactCommon": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactWindowsCore.dll": {}
         }
       }
     }
@@ -28058,10 +28538,35 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../../../node_modules/react-native-windows/Common/Common.vcxproj",
+      "msbuildProject": "../../../node_modules/react-native-windows/Common/Common.vcxproj"
+    },
+    "Folly/1.0.0": {
+      "type": "project",
+      "path": "../../../node_modules/react-native-windows/Folly/Folly.vcxproj",
+      "msbuildProject": "../../../node_modules/react-native-windows/Folly/Folly.vcxproj"
+    },
+    "JSI.Universal/1.0.0": {
+      "type": "project",
+      "path": "../../../node_modules/react-native-windows/JSI/Universal/JSI.Universal.vcxproj",
+      "msbuildProject": "../../../node_modules/react-native-windows/JSI/Universal/JSI.Universal.vcxproj"
+    },
     "Microsoft.ReactNative/1.0.0": {
       "type": "project",
       "path": "../../../node_modules/react-native-windows/Microsoft.ReactNative/Microsoft.ReactNative.vcxproj",
       "msbuildProject": "../../../node_modules/react-native-windows/Microsoft.ReactNative/Microsoft.ReactNative.vcxproj"
+    },
+    "ReactCommon/1.0.0": {
+      "type": "project",
+      "path": "../../../node_modules/react-native-windows/ReactCommon/ReactCommon.vcxproj",
+      "msbuildProject": "../../../node_modules/react-native-windows/ReactCommon/ReactCommon.vcxproj"
+    },
+    "ReactWindowsCore/1.0.0": {
+      "type": "project",
+      "path": "../../../node_modules/react-native-windows/ReactWindowsCore/ReactWindowsCore.vcxproj",
+      "msbuildProject": "../../../node_modules/react-native-windows/ReactWindowsCore/ReactWindowsCore.vcxproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -28077,11 +28582,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj",
+      "projectUniqueName": "C:\\Users\\gill\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj",
       "projectName": "RNPDFvnext",
-      "projectPath": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj",
+      "projectPath": "C:\\Users\\gill\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj",
       "packagesPath": "C:\\Users\\gill\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\obj\\",
+      "outputPath": "C:\\Users\\gill\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -28101,8 +28606,8 @@
       "frameworks": {
         "uap10.0.15063": {
           "projectReferences": {
-            "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj": {
-              "projectPath": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj"
+            "C:\\Users\\gill\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj": {
+              "projectPath": "C:\\Users\\gill\\react-native-pdf-view\\node_modules\\react-native-windows\\Microsoft.ReactNative\\Microsoft.ReactNative.vcxproj"
             }
           }
         }

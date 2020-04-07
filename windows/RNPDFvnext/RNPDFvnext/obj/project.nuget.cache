@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x+/EAfscCwyPgZEtGuBirhccyrHdddEFcrBWEP2Vt6t7UFbmd2goFG/cDT3q4emwc7yq/EiWkncDzjRztgDOTQ==",
+  "dgSpecHash": "gfBQ5RTecQgIEdD68K7w/qTUx1UveD1oPYbBm1nA3dgu9rg5pO8C3GxOtNH+T/KUkeCm+zONV9ktA4MVs3rXmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gill\\Documents\\GitHub\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj",
+  "projectFilePath": "C:\\Users\\gill\\react-native-pdf-view\\windows\\RNPDFvnext\\RNPDFvnext\\RNPDFvnext.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\1.7.6\\microsoft.net.native.compiler.1.7.6.nupkg.sha512",
