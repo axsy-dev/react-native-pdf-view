@@ -163,6 +163,7 @@
     <ProjectReference Include="..\..\..\windows\RNPDFvnext\RNPDFvnext\RNPDFvnext.csproj">
       <Project>{c45a8846-64c7-45e4-a74a-7fc9ea6846d4}</Project>
       <Name>RNPDFvnext</Name>
+      <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\node_modules\react-native-windows\Microsoft.ReactNative\Microsoft.ReactNative.vcxproj">
       <Project>{f7d32bd0-2749-483e-9a0d-1635ef7e3136}</Project>
