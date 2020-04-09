@@ -21,7 +21,7 @@ const App: () => React$Node = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <PDFView  src={`ms-appx:///Assets/pdf-test.pdf`}/>
+      <PDFView  style={styles.container} src={`ms-appx:///Assets/pdf-test.pdf`}/>
     </SafeAreaView>     
   );
 };
