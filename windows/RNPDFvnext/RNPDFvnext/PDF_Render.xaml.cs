@@ -30,7 +30,7 @@ namespace RNPDFvnext
 
         public PDF_Render()
         {
-            
+            this.InitializeComponent();
         }
 
         public async void LoadDocument(String path)
