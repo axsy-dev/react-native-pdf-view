@@ -7,7 +7,7 @@ namespace RNPDFvnext
     {
         public void CreatePackage(IReactPackageBuilder packageBuilder)
         {
-            packageBuilder.AddViewManagers();
+            packageBuilder.AddReflectionReactPackageProvider<ReactPackageProvider>();
         }
     }
 }
